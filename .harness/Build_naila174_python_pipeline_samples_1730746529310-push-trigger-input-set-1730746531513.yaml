@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_naila174_python_pipeline_samples_1730746529310-push-trigger-input-set
+  identifier: Build_naila174_python_pipeline_samples_1730746529310pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: pythondemo
+  pipeline:
+    identifier: Build_naila174_python_pipeline_samples_1730746529310
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
