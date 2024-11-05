@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_naila174_python_pipeline_samples_1730840454710-pr-trigger-input-set
+  identifier: Build_naila174_python_pipeline_samples_1730840454710prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: TestFinalCI
+  pipeline:
+    identifier: Build_naila174_python_pipeline_samples_1730840454710
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
